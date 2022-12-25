@@ -1,5 +1,5 @@
 **Sometime ABAPer's wants to replace particular characters in a string variable / group of rows in a table.
-**To achieve the above scenario, we can a replace fuction
+**To achieve the above scenario, we can use replace fuction
 
 DATA(s1) = `Hello UI5 and ABAP Dev`.
 
