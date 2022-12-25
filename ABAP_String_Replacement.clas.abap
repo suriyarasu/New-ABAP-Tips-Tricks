@@ -7,7 +7,7 @@ DATA(s1) = `Hello UI5 and ABAP Dev`.
 //We can ignore the case-sensitive with optional addition **CASE**
 DATA(s2) = REPLACE( val = s1 sub = `UI5` with = `X-Mas` CASE = ABAP_FALSE ). // Result Hello X-Mas and ABAP Dev
 
-//To counts a number of occurances and replacements in a string
+//To count a number of occurances and replacements in a string
 REPLACE ALL OCCURRENCES OF `UI5` IN s1 WITH 'X-Mas'
             REPLACEMENT COUNT DATA(LV_COUNT)     "1 (number of replacements)
             REPLACEMENT OFFSET DATA(LV_OFFSET)   "6 (Last occurance of replacement)
