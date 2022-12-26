@@ -14,7 +14,7 @@ DATA itab TYPE SORTED TABLE OF data_type WITh UNIQUE KEY FIELDS...
 "When to use Hashed Internal Table
 1)When the table is large and primary key's are specified with the table, then Hashed table is better option for read operation
   as Hashed tables using hashing key to access the data but the Administration cost is high due to a greater memory overhead.
-2)Data access is equally faster than sorted table which required constant time..
+ Data access is equally faster than sorted table which required constant time.
 
 DATA  itab2 TYPE HASHED TABLE OF data_type WITH UNIQUE KEY FIELDS...
 
