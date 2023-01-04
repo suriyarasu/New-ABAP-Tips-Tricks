@@ -24,6 +24,8 @@ METHOD GET_GROUP_BY_DATA.
             UP TO 50 ROWS.
             
     "Grouping an internal table rows based on Key criteria
+    "Grouping also can be done by more than one column.
+    
     LOOP AT LT_ABAP INTO wa_vbap
                     GROUP BY wa_vbap-vbeln.
          WRITE :/ wa_vbap-vbeln.             
