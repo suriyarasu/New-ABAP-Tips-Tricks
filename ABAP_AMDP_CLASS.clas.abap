@@ -2,20 +2,20 @@
 
 **AMDP DATABASE Procedure
 ----------------------------------------------------------------------------------
-1 -> AMDP database procedure can be defined in any visibility section of the class
-2 -> AMDP databse procedure can be created as instance method or static method in any visibility section
-3 -> Method parameter's should be passed by Value using VALUE( )... pass by reference not supported
-4 -> Paramter type must not be generic must be like elementry type or strcuture table type
-5 -> Return type cannot be declared with RETURING parameter
-6 -> only input parameter can be flagged as optional
+*1 -> AMDP database procedure can be defined in any visibility section of the class
+*2 -> AMDP databse procedure can be created as instance method or static method in any visibility section
+*3 -> Method parameter's should be passed by Value using VALUE( )... pass by reference not supported
+*4 -> Paramter type must not be generic must be like elementry type or strcuture table type
+*5 -> Return type cannot be declared with RETURING parameter
+*6 -> only input parameter can be flagged as optional
 
 **AMDP DATABASE Function
 ----------------------------------------------------------------------------------
-1 -> AMDP database function can only be accessed by AMDP procedure / funciton method. cannot be directly
+*1 -> AMDP database function can only be accessed by AMDP procedure / funciton method. cannot be directly
      called in ABAP program
-2 -> can be created as instance method or static method
-3 -> The method parameter must include a return value using "RETURNING" and having tabular data type
-4 -> No class based exception declared using RAISING
+*2 -> can be created as instance method or static method
+*3 -> The method parameter must include a return value using "RETURNING" and having tabular data type
+*4 -> No class based exception declared using RAISING
 
 
 CLASS CL_AMDP DEFINITION.
