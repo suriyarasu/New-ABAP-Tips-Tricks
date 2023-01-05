@@ -12,7 +12,7 @@
 **AMDP DATABASE Function
 ----------------------------------------------------------------------------------
 *1 -> AMDP database function can only be accessed by AMDP procedure / funciton method. cannot be directly
-     called in ABAP program
+*     called in ABAP program
 *2 -> can be created as instance method or static method
 *3 -> The method parameter must include a return value using "RETURNING" and having tabular data type
 *4 -> No class based exception declared using RAISING
