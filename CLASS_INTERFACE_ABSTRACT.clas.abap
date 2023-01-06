@@ -1,6 +1,6 @@
 **What are the difference between Interface and Abstract classes
 
-Interface
+**Interface
 ------------------------------------------------------------------
 * 1 -> Interfaces offers only public components
 * 2 -> Class can implement multiple interfaces
@@ -10,9 +10,9 @@ Interface
 *      interface methods.
 * 5 -> Interfaces doesn't have any optional methods, all the methods should be implemented in sub-classes class.
 
-Abstract Class
+**Abstract Class
 ------------------------------------------------------------------
-* 1 -> Abstract class can provide public component's and protected component's as well.
+* 1 -> Abstract class can provide public component's and protected component's.
 * 2 -> Abstract class cannot be instantiated itself. it can only be instantiated by Sub-classes.
 * 3 -> sub-classes must call the abstract class contractor even if the abstract class doesn't have a constractor.
 * 4 -> The abstract class power over the sub-classes code, being able to add members and constructor code.
