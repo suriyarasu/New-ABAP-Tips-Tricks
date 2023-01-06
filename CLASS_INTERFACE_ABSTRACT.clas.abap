@@ -22,7 +22,7 @@
 
 
 
-**Instead of using abstract classes as alternative interfaces, you should use both in combination to decouple dependencies.
+**Instead of using abstract classes as alternative to interfaces, you should use both in combination to decouple dependencies.
 
 INTERFACE if_interface.
   METHODS. publish.
