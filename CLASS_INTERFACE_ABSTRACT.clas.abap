@@ -25,7 +25,7 @@
 **Instead of using abstract classes as alternative to interfaces, you should use both in combination to decouple dependencies.
 
 INTERFACE if_interface.
-  METHODS. publish.
+  METHODS: publish.
 ENDINTERFACE.
 
 CLASS cl_abstract DEFINITION PUBLIC ABSTRACT CREATE PROTECTED.
