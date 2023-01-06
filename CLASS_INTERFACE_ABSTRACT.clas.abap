@@ -1,4 +1,4 @@
-**What are the difference between Interface and Abstract classes
+**What are the differences between Interface and Abstract classes
 
 **Interface
 ------------------------------------------------------------------
