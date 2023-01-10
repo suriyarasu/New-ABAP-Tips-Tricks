@@ -1,4 +1,4 @@
-*"Case distinction for class reference type ? Interfaces
+*"Case distinction for class reference type / Interfaces
 *"How to execute the some block of code based on class reference type / interface 
 
 *"We can switch on reference types class / Interface using the CASE expression TYPE OF...
