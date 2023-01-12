@@ -1,7 +1,7 @@
 > We all used to work with constant variables when we want to access static data.
 > Now, we can make use of "ENUMERATION" to achieve the same.
 
-**TYPES:
+TYPES:
   BEGIN OF ENUM scrum_status_type,
     open,
     in_progress,
@@ -9,9 +9,9 @@
     done,
   END OF ENUM scrum_status_type.
 
-**DATA(scrum_status) = open.****
+DATA(scrum_status) = open.
 
-*"old style
+old style
 CONSTANTS scrum_status_open       TYPE i VALUE 1.
 CONSTANTS scrum_status_in_process TYPE i VALUE 2.
 CONSTANTS scrum_status_blocked    TYPE i VALUE 3.
