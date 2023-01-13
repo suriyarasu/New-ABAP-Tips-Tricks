@@ -19,3 +19,5 @@ CONSTANTS scrum_status_done       TYPE i VALUE 4.
 
 DATA scrum status TYPE i.
 scrum_status = scrum_status_open.
+
+DATA : max_session_timeout TYPE i.
