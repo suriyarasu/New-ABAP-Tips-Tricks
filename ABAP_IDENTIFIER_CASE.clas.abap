@@ -1,4 +1,4 @@
-*"As SAP programmer, we should name our variables to uniquely identify by the complier.
+*"As SAP programmer, we should name our variables to uniquely identify data by the complier.
 *"Since ABAP is case-insesitive langaue we should incliend towards snake_case naming style as preety-print in ABAP tool 
 *"would make our code either to CamelCase or lowercase.
 *"Commmon coding style ABAP is ABAP keywords could be in CAMEL_CASE and identifier's can be in lower_case as lower case letter's are
