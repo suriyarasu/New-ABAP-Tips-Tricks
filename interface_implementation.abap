@@ -14,6 +14,7 @@ ENDCLASS.
 
 CLASS LCL_COMPUTER IMPLEMENTATION.
   METHOD lif_computer~display_laptop.
+   // ~ which is interface resolution operator.
     ..............
   ENDMETHOD.
 ENDCLASS.
