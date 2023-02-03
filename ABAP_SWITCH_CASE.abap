@@ -1,4 +1,4 @@
-*"To evaluate conditions parallely use new ABAP syntax.
+*"To evaluate conditions parallely in ABAP we can use new syntax.
 
 DATA(status) = SWITCH string( Car_model
     WHEN Electric THEN 0
