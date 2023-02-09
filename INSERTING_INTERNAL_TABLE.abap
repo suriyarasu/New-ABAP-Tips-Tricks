@@ -9,4 +9,4 @@ ENDLOOP.
 
 "Let kernel do that work which will improve performance of your code.
 index = lines( ITAB ) + 1.
-INSERT LINES OF ITAB INTO ITAB2 INDEX index. 
+INSERT LINES OF ITAB FROM 1 TO 50 INTO ITAB2 INDEX index. 
