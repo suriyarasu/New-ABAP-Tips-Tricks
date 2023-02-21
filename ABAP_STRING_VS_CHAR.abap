@@ -1,4 +1,4 @@
-"Use STRING data type instead of CHAR data type as STRING operation maybe faster depending on the lenght of the field
+"Use STRING data type instead of CHAR.. As STRING operation maybe faster depending on the lenght of the field
 
   DATA: lv_str      TYPE string,
         lv_s1       TYPE string,
