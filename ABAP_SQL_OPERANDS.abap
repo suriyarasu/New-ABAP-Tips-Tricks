@@ -1,7 +1,8 @@
 "Use of SQL operands in ABAP SQL Statements
 
-"There are three operands used in the ABAP SQL statements. The typed literals are prefered way to be used in ABAP SQL statement as untyped literal considered extra cost in terms of performance
-"Since they should be converted by the compiler and can be result in error at runtine if the value is not guareteed.
+"There are three operands used in the ABAP SQL statements. The typed literals are prefered way to be used in ABAP SQL statement 
+"as untyped literal considered extra cost in terms of performance Since they should be converted by the compiler 
+"and can be result in error at runtine if the value is not guareteed.
 "1. Typed literals
 "2. untyped literals
 "3. Host variable
