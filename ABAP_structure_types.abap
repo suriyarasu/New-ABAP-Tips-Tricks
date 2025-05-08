@@ -14,7 +14,7 @@ DATA:  BEGIN of addr_deep,
         end of person,
         begin of city,
         zipcode type string,
-        end of person,
+        end of city,
         END of addr_deep.
 **Deep Structure**      
 DATA: BEGIN OF address_d,
