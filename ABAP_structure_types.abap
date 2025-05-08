@@ -21,3 +21,9 @@ DATA: BEGIN OF address_d,
         name    TYPE string VALUE `SAP`, 
         details TYPE TABLE OF some_table WITH EMPTY KEY, 
       END OF address_d.
+
+"The following structure looks simple, but it will be consider as Deep structure as it has String component.
+DATA: BEGIN OF company,
+        name   TYPE string VALUE `SAP AG`,
+        code TYPE string VALUE `Land 11222`,
+      END OF company.
