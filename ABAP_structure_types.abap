@@ -1,4 +1,4 @@
-"There 3 different types of structures supported by ABAP.
+"There 3 different types of structures supported by ABAP..
 "1.Flat Structure   - It contains only elementary data types which has fixed length. there will be no internal tables.
 "2.Nested Structure - atleast one component of structure has substructure which will refer to another structure.
 "3.Deep Structure   - It contain atleast one internal table, reference type, or string component.
